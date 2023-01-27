@@ -1,0 +1,19 @@
+public class ConstructorProgram {
+    int employeeId=0;
+    int salary=0;
+    String dept="";
+    ConstructorProgram(int id, int sal, String str){
+     employeeId=id;
+     salary=sal;
+     dept=str;
+    }
+
+public static void main(String args[]){
+    ConstructorProgram Aditya=new ConstructorProgram(101,3000,"Testing");
+    ConstructorProgram Rahul =new ConstructorProgram(102,5000,"Er..");
+    System.out.println(Aditya.employeeId + " " +Aditya.salary + " " + Aditya.dept);
+    System.out.println(Rahul.employeeId + " " + Rahul.salary + " " +Rahul.dept);
+    
+
+}
+}
